@@ -1,0 +1,65 @@
+[
+  {
+    "newCategory": "news",
+    "title": "et blandit erat nisl ullamcorper",
+    "date": "2019/08/14",
+    "img": "https://placem.at/things?w=1000&h=600&random=1",
+    "newsIntro": "lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget lorem at metus auctor eleifend, metus magna ullamcorper velit, ut posuere leo arcu eget lorem. lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget"
+  },
+  {
+    "newCategory": "active",
+    "title": "magna ullamcorper velit",
+    "date": "2019/03/07",
+    "img": "https://placem.at/things?w=1000&h=600&random=2",
+    "newsIntro": "ut posuere leo arcu eget lorem at metus auctor eleifend, metus magna ullamcorper velit, ut posuere leo arcu eget lorem. lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget"
+  },
+  {
+    "newCategory": "news",
+    "title": "velit, ut posuere leo arcu eget",
+    "date": "2019/02/14",
+    "img": "https://placem.at/things?w=1000&h=600&random=3",
+    "newsIntro": "metus magna ullamcorper velit, ut posuere leo arcu eget lorem. lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget"
+  },
+  {
+    "newCategory": "news",
+    "title": "nisl ullamcorper velit",
+    "date": "2018/12/14",
+    "img": "https://placem.at/things?w=1000&h=600&random=4",
+    "newsIntro": "lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget lorem at metus auctor eleifend, metus eget lorem. lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget"
+  },
+  {
+    "newCategory": "news",
+    "title": "et blandit erat nisl ullamcorper",
+    "date": "2018/11/30",
+    "img": "https://placem.at/things?w=1000&h=600&random=5",
+    "newsIntro": "ut posuere leo arcu eget lorem at metus auctor eleifend, metus magna ullamcorper velit, ut posuere leo arcu eget lorem. lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget"
+  },
+  {
+    "newCategory": "news",
+    "title": "ut posuere leo arcu",
+    "date": "2018/10/14",
+    "img": "https://placem.at/things?w=1000&h=600&random=6",
+    "newsIntro": "lorem. et blandit erat it, ut posuere leo arcu eget lorem. lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget"
+  },
+  {
+    "newCategory": "news",
+    "title": "auctor eleifend, metus magna ullamcorper velit,",
+    "date": "2018/04/25",
+    "img": "https://placem.at/things?w=1000&h=600&random=7",
+    "newsIntro": "lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget lorem at metus auctor eleifend, metus magna ullamcorper velit, ut posuere leo arcu eget lorem. lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget ullamcorper velit, ut posuere leo arcu eget lorem at metus auctor eleifend, metus magna ullamcorper velit, ut posuere leo arcu eget lorem. lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget"
+  },
+  {
+    "newCategory": "active",
+    "title": "magna ullamcorper velit",
+    "date": "2018/03/16",
+    "img": "https://placem.at/things?w=1000&h=600&random=8",
+    "newsIntro": "lorem. et  lorem at metus auctor eleifend, metus magna ullamcorper velit, ut posuere leo arcu eget lorem. lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget"
+  },
+  {
+    "newCategory": "news",
+    "title": "leo arcu eget lorem",
+    "date": "2018/01/15",
+    "img": "https://placem.at/things?w=1000&h=600&random=9",
+    "newsIntro": "lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget lorem at metus auctor eleifend, metus magna ullamcorper velit, ut posuere leo arcu eget lorem. lorem. et blandit erat nisl ullamcorper velit, ut posuere leo arcu eget"
+  }
+]

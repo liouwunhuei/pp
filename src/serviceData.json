@@ -1,0 +1,30 @@
+[
+  {
+    "storeName": "number1",
+    "time": "12:00~23:00",
+    "tel": "02-2344-5678",
+    "add": "leo arcu eget lorem at metus auctorleo arcu eget lorem at metus auctorleo arcu eget lorem at metus auctor",
+    "img": "https://placem.at/things?w=1200&h=500&random=5"
+  },
+  {
+    "storeName": "number2",
+    "time": "12:00~22:00",
+    "tel": "02-2353-5741",
+    "add": "at metus auctor eleifend, metus magna ullamcorper velit, ut posuere leo arcu eget lorem. lorem. et blandit erat nisl ullamcorper velitr",
+    "img": "https://placem.at/things?w=1200&h=500&random=6"
+  },
+  {
+    "storeName": "number3",
+    "time": "12:00~22:30",
+    "tel": "02-6745-2365",
+    "add": "ut posuere leo arcu eget lorem at metus auctor eleifend, metus magnalorem at metus auctorleo arcu eget lorem at metus auctor",
+    "img": "https://placem.at/things?w=1200&h=500&random=9"
+  },
+  {
+    "storeName": "number4",
+    "time": "12:00~22:00",
+    "tel": "02-6451-5977",
+    "add": "metus magna ullamcorper velit, ut posuere leo arcu eget lorem. lorem. et blandit erat nisl ullamcorper velitr",
+    "img": "https://placem.at/things?w=1200&h=500&random=3"
+  }
+]
