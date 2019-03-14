@@ -9,16 +9,16 @@
     </div>
     <div class="container">
       <div class="menu-nav">
-        <a href="#">number1</a>
-        <a href="#">number2</a>
-        <a href="#">number3</a>
-        <a href="#">number4</a>
+        <a href="#" @click="linkMenu">number1</a>
+        <a href="#" @click="linkMenu">number2</a>
+        <a href="#" @click="linkMenu">number3</a>
+        <a href="#" @click="linkMenu">number4</a>
       </div>
       <div class="menu-section">
         <div class="menu-list number1">
           <h2>number1</h2>
           <ul>
-            <li v-for="(menu1,index) in menu1(menus)" :value="index">
+            <li v-for="(menu1,index) in menu1(menus)" :value="'menu1-'+index" @click="picMenu">
               <img :src="menu1.img" :alt="menu1.name">
               <span class="dolor">${{menu1.money}}</span>
               <h3><span>{{menu1.subname}}</span>{{menu1.name}}</h3>
@@ -29,7 +29,7 @@
         <div class="menu-list number2">
           <h2>number2</h2>
           <ul>
-            <li v-for="(menu2,index) in menus" :value="index">
+            <li v-for="(menu2,index) in menu2(menus)" :value="'menu2-'+index" @click="picMenu">
               <img :src="menu2.img" :alt="menu2.name">
               <span class="dolor">${{menu2.money}}</span>
               <h3><span>{{menu2.subname}}</span>{{menu2.name}}</h3>
@@ -40,7 +40,7 @@
         <div class="menu-list number3">
           <h2>number3</h2>
           <ul>
-            <li v-for="(menu3,index) in menus" :value="index">
+            <li v-for="(menu3,index) in menu3(menus)" :value="'menu3-'+index" @click="picMenu">
               <img :src="menu3.img" :alt="menu3.name">
               <span class="dolor">${{menu3.money}}</span>
               <h3><span>{{menu3.subname}}</span>{{menu3.name}}</h3>
@@ -51,7 +51,7 @@
         <div class="menu-list number4">
           <h2>number4</h2>
           <ul>
-            <li v-for="(menu4,index) in menus" :value="index">
+            <li v-for="(menu4,index) in menu4(menus)" :value="'menu4-'+index" @click="picMenu">
               <img :src="menu4.img" :alt="menu4.name">
               <span class="dolor">${{menu4.money}}</span>
               <h3><span>{{menu4.subname}}</span>{{menu4.name}}</h3>
@@ -108,25 +108,6 @@
     </div>
   </div>
 </template>
-<script>
-  $(function(){
-    // 點擊滑動
-    $('.menu-nav>a').click(function(e){
-      e.preventDefault();
-      let nav_choise = $(this).text();
-      $('html').animate(
-        {
-          scrollTop:$('.'+nav_choise).offset().top -120
-        }, 500
-      );
-    });
-    // 點擊選取商品
-    $('.menu-list ul li').click(function(e){
-      e.preventDefault();
-      $(this).toggleClass('choise');
-    })
-  })
-</script>
 
 <script>
 export default {
@@ -142,24 +123,41 @@ export default {
   },
   methods:{
     menu1: function (menus) {
-      return menus.filter(function(menus){
-        return menus.productCategory === "number1";
+      return menus.filter(function(item){
+        return item.productCategory === "number1";
       });
     },
     menu2: function (menus) {
-      return menus.filter(function(menus){
-        return menus.productCategory === "number2";
+      return menus.filter(function(item){
+        return item.productCategory === "number2";
       });
     },
     menu3: function (menus) {
-      return menus.filter(function(menus){
-        return menus.productCategory === "number3";
+      return menus.filter(function(item){
+        return item.productCategory === "number3";
       });
     },
     menu4: function (menus) {
-      return menus.filter(function(menus){
-        return menus.productCategory === "number4";
+      return menus.filter(function(item){
+        return item.productCategory === "number4";
       });
+    },
+    linkMenu: function(e){
+      
+        let nav_choise = $(e.target).text();
+        $('html').animate(
+          {
+            scrollTop:$('.'+nav_choise).offset().top -120
+          }, 500
+        );
+    },
+    picMenu: function(e){
+      console.log(e.target);
+      if(e.target != e.target.li){
+        e.preventDefault();
+        $(e.target).parent('li').toggleClass('choise');
+      }
+      $(e.target).toggleClass('choise');
     },
   },
 }

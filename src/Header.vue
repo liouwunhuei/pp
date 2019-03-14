@@ -2,6 +2,7 @@
   <div id="header">
     <div class="visible-xs">
       <button><font-awesome-icon icon="bars"/></button>
+      <button><font-awesome-icon icon="times"/></button>
       <router-link to="/"><img src="./assets/images/logo.svg" alt="logo"></router-link>
     </div>
     <div class="nav">

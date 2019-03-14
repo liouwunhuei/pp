@@ -21,8 +21,8 @@
     "productCategory": "number1",
     "name": "et blandit erat",
     "subname": "blandit erat nisl metus",
-    "Ingredients": "magna/blandit/blandit/blandit/arcu",
-    "subIngredients": "magna/blandit/blandit/blandit/arcu",
+    "Ingredients": "magna/blandit/blandit/arcu",
+    "subIngredients": "magna/blandit/blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100
   },
@@ -66,8 +66,8 @@
     "productCategory": "number2",
     "name": "et blandit erat",
     "subname": "blandit erat nisl metus",
-    "Ingredients": "magna/blandit/blandit/blandit/arcu",
-    "subIngredients": "magna/blandit/blandit/blandit/arcu",
+    "Ingredients": "magna/blandit",
+    "subIngredients": "magna/blandit",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100
   },
@@ -111,8 +111,8 @@
     "productCategory": "number1",
     "name": "et blandit erat",
     "subname": "blandit erat nisl metus",
-    "Ingredients": "magna/blandit/blandit/blandit/arcu",
-    "subIngredients": "magna/blandit/blandit/blandit/arcu",
+    "Ingredients": "blandit/arcu",
+    "subIngredients": "blandit/arcu",
     "img": "https://placem.at/things?w=500&h=500&random=6",
     "money": 100
   },
