@@ -18,7 +18,9 @@
         <div class="service-list" v-for="(serviceitem,index) in service" :value="index" :key="serviceitem.storeNamestoreName">
           <div class="service-text">
             <h3>{{serviceitem.storeName}}</h3>
-            <span>F</span>
+            <font-awesome-icon :icon="['fab', 'facebook']"/>
+            <font-awesome-icon :icon="['fab', 'instagram']"/>
+            <font-awesome-icon :icon="['fab', 'line']"/>
             <ul>
               <li><span>time</span>{{serviceitem.time}}</li>
               <li><span>add</span>{{serviceitem.add}}</li>

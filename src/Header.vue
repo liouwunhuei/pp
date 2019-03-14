@@ -1,7 +1,7 @@
 <template>
   <div id="header">
     <div class="visible-xs">
-      <button>button</button>
+      <button><font-awesome-icon icon="bars"/></button>
       <router-link to="/"><img src="./assets/images/logo.svg" alt="logo"></router-link>
     </div>
     <div class="nav">
