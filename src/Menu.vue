@@ -143,7 +143,6 @@ export default {
       });
     },
     linkMenu: function(e){
-      
         let nav_choise = $(e.target).text();
         $('html').animate(
           {

@@ -39,6 +39,7 @@ $(function(){
 });
 </script>
 <style>
+  @import './assets/css/font.css';
   #header{
     text-align: center;
     position: fixed;
@@ -50,6 +51,7 @@ $(function(){
     background: #ffffff;
     width: 100%;
     transform: translateX(-50%);
+    font-family: 'pacifico';
   }
   #header a{
     font-size: 17px;

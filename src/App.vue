@@ -27,6 +27,7 @@ export default {
 
 
 <style>
+  @import './assets/css/font.css';
   *{
     box-sizing: border-box;
     padding:0;

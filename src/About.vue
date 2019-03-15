@@ -56,6 +56,8 @@ export default {
     top: 20vw;
   }
   .inner-title h1{
+    font-family: 'pacifico';
+    font-weight: inherit;
     font-size: 20px;
     color: #fff;
   }
