@@ -39,7 +39,6 @@ $(function(){
 });
 </script>
 <style>
-  @import './assets/css/font.css';
   #header{
     text-align: center;
     position: fixed;
