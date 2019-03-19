@@ -23,22 +23,10 @@
             <p>$100</p>
             <button>delete</button>
           </li>
-          <li>
-            <img src="https://placem.at/things?w=500&h=500&random=6" alt="">
-            <h3>et blandit erat nisl</h3>
-            <p>$100</p>
-            <button>delete</button>
-          </li>
-          <li>
-            <img src="https://placem.at/things?w=500&h=500&random=6" alt="">
-            <h3>et blandit erat nisl</h3>
-            <p>$100</p>
-            <button>delete</button>
-          </li>
         </ul>
       </div>
       <div class="order-totall">
-        <p>共1項，總價：100元</p>
+        <p>共<span class="orderNum">1</span>項，總價：<span class="price">100</span>元</p>
       </div>
       <button type="submit">submit</button>
     </form>
